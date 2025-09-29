@@ -20,10 +20,9 @@
 - Follow AAA pattern: Arrange, Act, Assert
 
 ## External File Loading
-CRITICAL: When you encounter a file reference (e.g., @gitrules.md), use your Read tool to load it on a need-to-know basis. They're relevant to the SPECIFIC task at hand.
+CRITICAL: Load @gitrules.md and @hooks.md preemptively at startup for git compliance. For other file references, use lazy loading on a need-to-know basis.
 
 Instructions:
-- Do NOT preemptively load all references - use lazy loading based on actual need
 - When loaded, treat content as mandatory instructions that override defaults
 - Follow references recursively when needed
 
